@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <div class="sidebar-layout">
+
+    <aside class="sidebar">
+      <h2>My Website</h2>
+      <a href="#home">Home</a>
+      <a href="#product">Product</a>
+      <a href="#blog">Blog</a>
+    </aside>
+
+    <main class="main-content">
+
+      <section id="home">
+        <h1>Responsive Web Layouts</h1>
+        <p>
+          This page uses a sidebar, a product card, and a Flexbox blog layout.
+        </p>
+      </section>
+
+      
+      <section id="product">
+        <h2>Product Card</h2>
+
+        <div class="product-card">
+          <img src="https://placehold.co/300x200/ffd166/222?text=Headphones"
+               alt="Headphones product">
+
+          <h3>Wireless Headphones</h3>
+          <p>Enjoy clear sound and a comfortable fit for everyday listening.</p>
+          <p class="price">$49.99</p>
+
+          <button>Add to Cart</button>
+        </div>
+      </section>
+
+     
+      <section id="blog">
+        <h2>Latest Blog Posts</h2>
+
+        <div class="blog-container">
+
+          <article class="blog-post">
+            <h3>Post One</h3>
+            <p>Learn the basics of HTML and create the structure of a web page.</p>
+            <a href="#">Read more</a>
+          </article>
+
+          <article class="blog-post">
+            <h3>Post Two</h3>
+            <p>Use CSS to add colors, spacing, borders, and better page design.</p>
+            <a href="#">Read more</a>
+          </article>
+
+          <article class="blog-post">
+            <h3>Post Three</h3>
+            <p>Use Flexbox and media queries to make your design responsive.</p>
+            <a href="#">Read more</a>
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+</body>
+</html>
